@@ -12,19 +12,25 @@ export default function Form() {
                 <Text style={style.titleText}>Preencha os campos abaixo</Text>
             </View>
             <View style={style.midBox}>
-                <View style={style.inputBox}>
-                    <Text>NOME DO PRODUTO</Text>
-                    <TextInput
-                        style={style.inputText}
-                    />
-                    <Text>VALOR ORIGINAL DO PRODUTO</Text>
-                    <TextInput
-                        style={style.inputText}
-                    />
-                    <Text>PORCENTUAL GANHO</Text>
-                    <TextInput
-                        style={style.inputText}
-                    />
+                <View style={style.midBox}>
+                    <View style={style.inputBox}>
+                        <Text style={style.inputText}>NOME DO PRODUTO</Text>
+                    </View>
+                    <View style={style.inputBox}>
+                        <TextInput
+                            style={style.input}
+                        />
+                        <Text style={style.inputText}>VALOR ORIGINAL DO PRODUTO</Text>
+                        <TextInput
+                            style={style.input}
+                        />
+                    </View>
+                    <View style={style.inputBox}>
+                        <Text style={style.inputText}>PORCENTUAL GANHO</Text>
+                        <TextInput
+                            style={style.input}
+                        />
+                    </View>
                 </View>
             </View>
             <View style={style.buttonBox}>

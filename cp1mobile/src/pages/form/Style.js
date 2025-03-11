@@ -31,7 +31,6 @@ export const style = StyleSheet.create({
     },
 
     midBox: {
-        backgroundColor: 'blue',
         width: '100%',
         height: 200,
         alignItems: 'center',
@@ -41,10 +40,28 @@ export const style = StyleSheet.create({
     inputBox: {
         alignItems: 'center',
         justifyContent: 'center',
+        width: '80%'
+    },
+
+    inputText: {
+        fontSize: 16,
+        color: 'gray',
+        paddingVertical: 15,
+    },
+
+    input: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%',
+        height: 40,
+        backgroundColor: '#d7d8d7',
+        borderWidth: 1,
+        borderColor: '#d7d8d7',
+        borderRadius: 40
     },
 
     buttonBox: {
-        backgroundColor: 'green',
         width: '100%',
         height: 200,
         alignItems: 'center',
