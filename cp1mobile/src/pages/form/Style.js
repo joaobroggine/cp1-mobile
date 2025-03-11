@@ -8,6 +8,7 @@ export const style = StyleSheet.create({
         justifyContent: 'center',
         width: '100%',
         padding: 20,
+        backgroundColor: '#F6F0F0'
     },
 
     logo: {
@@ -25,7 +26,7 @@ export const style = StyleSheet.create({
     },
 
     titleText: {
-        fontSize: 22,
+        fontSize: 20,
         fontWeight: 'bold',
         paddingVertical: 3,
     },
@@ -50,6 +51,8 @@ export const style = StyleSheet.create({
     },
 
     input: {
+        paddingHorizontal: 10,
+        fontSize: 16,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
@@ -66,6 +69,22 @@ export const style = StyleSheet.create({
         height: 200,
         alignItems: 'center',
         justifyContent: 'center',
+    },
+
+    button: {
+        backgroundColor: '#80CBC4',
+        width: 200,
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        borderColor: '#80CBC4',
+        borderRadius: 40
+    },
+
+    buttonText: {
+        fontSize: 20,
+        color: 'white'
     },
 
 })

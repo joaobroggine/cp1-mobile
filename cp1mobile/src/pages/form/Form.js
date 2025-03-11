@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Text, TextInput, View } from 'react-native'
+import { Image, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import Logo from '../../../assets/logo.png'
 import { style } from './Style'
 
@@ -34,7 +34,9 @@ export default function Form() {
                 </View>
             </View>
             <View style={style.buttonBox}>
-                <Text>Button Box</Text>
+                <TouchableOpacity style={style.button}>
+                    <Text style={style.buttonText}>Calcular</Text>
+                </TouchableOpacity>
             </View>
         </View>
     )
